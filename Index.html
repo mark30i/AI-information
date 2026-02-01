@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Portal — Штучний Інтелект</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0f2c, #1a0b3d);
+            color: #ffffff;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: rgba(0, 0, 0, 0.4);
+            border-bottom: 2px solid #6a5cff;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            /* 🔴 СЮДИ ВСТАВИШ СВІЙ ЛОГОТИП */
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            color: #8b7cff;
+        }
+
+        main {
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #6a5cff;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+            box-shadow: 0 0 20px rgba(138, 124, 255, 0.2);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 30px rgba(138, 124, 255, 0.6);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h2 {
+            color: #9d8cff;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .card-content a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(90deg, #6a5cff, #9d8cff);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .card-content a:hover {
+            background: linear-gradient(90deg, #9d8cff, #6a5cff);
+            box-shadow: 0 0 10px #9d8cff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://i.postimg.cc/qqvtZsg1/0-02-05-e43a4ffcdaa59a23b30a29e41b31b91134c765fbaac29d2e9db04470743d076c-29dc4a8a9c2414c2.jpg" alt="Логотип">
+        <h1>AI Portal</h1>
+    </div>
+</header>
+
+<main>
+    <section class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="ШІ">
+            <div class="card-content">
+                <h2>Що таке штучний інтелект</h2>
+                <p>
+                    Штучний інтелект — це технологія, яка дозволяє комп’ютерам
+                    імітувати людське мислення. Він аналізує дані, навчається
+                    та приймає рішення без прямого втручання людини.
+                </p>
+                <a href="https://www.youtube.com/watch?v=ad79nYk2keg" target="_blank">Дивитися відео</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e" alt="Медицина">
+            <div class="card-content">
+                <h2>ШІ в медицині</h2>
+                <p>
+                    У медицині ШІ допомагає лікарям ставити точніші діагнози,
+                    аналізувати знімки та прогнозувати захворювання.
+                    Це рятує життя та економить час.
+                </p>
+                <a href="https://www.youtube.com/watch?v=V5aZjsWM2wo" target="_blank">Дивитися відео</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6" alt="Ігри">
+            <div class="card-content">
+                <h2>ШІ в іграх</h2>
+                <p>
+                    У відеоіграх штучний інтелект створює розумних персонажів,
+                    які адаптуються до стилю гравця.
+                    Це робить ігри цікавішими та реалістичнішими.
+                </p>
+                <a href="https://youtu.be/aLDt81MmiE4?si=2Sj9ZCDmD2us0dRZ" target="_blank">Дивитися відео</a>
+            </div>
+        </div>
+     <div class="card">
+            <img src="https://i.postimg.cc/TPdBVZqk/104-image-jpg.webp" alt="Ігри">
+            <div class="card-content">
+                <h2>ШІ в освіті</h2>
+                <p>
+                    використання алгоритмів машинного навчання для персоналізації навчального процесу, автоматизації оцінювання, створення контенту (презентацій, тестів) та підтримки викладачів.
+                </p>
+                <a href="https://www.youtube.com/live/EfMT-3upxRo?si=Z-Pi9DgI0skfNfCo" target="_blank">Дивитися відео</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.postimg.cc/9Qnyb9yn/Bez-nazvania-(16).jpg" alt="Ігри">
+            <div class="card-content">
+                <h2>Майбутнє штучного інтелекту</h2>
+                <p>
+                    Більшість сучасних систем штучного інтелекту вузькоспеціалізовані та створені для виконання конкретних завдань,
+                     як-от розпізнавання мови, обробка зображень або аналіз даних.
+                      Але наступним кроком у розвитку технологій стане штучний загальний інтелект (AGI) - система, здатна навчатися і застосовувати знання в найрізноманітніших галузях, як це робить людина.
+                </p>
+                <a href="https://youtu.be/XO-Cp3L0PLE?si=3XcxScXQmGlduaC-" target="_blank">Дивитися відео</a>
+            </div>
+        </div><div class="card">
+            <img src="https://i.postimg.cc/90LBjnq7/Bez-nazvania-(18).jpg" alt="Ігри">
+            <div class="card-content">
+                <h2>Використання ШІ</h2>
+                <p>
+                    Використання штучного інтелекту (ШІ) охоплює автоматизацію рутинних завдань, аналіз даних, генерацію контенту (текст, зображення), персоналізацію послуг та підвищення ефективності в медицині, освіті, фінансах і маркетингу.
+                </p>
+                <a href="https://youtu.be/wLlTNAhadPQ?si=Lve8vxAf4HLeBKPE" target="_blank">Дивитися відео</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2026 AI Portal | Інформаційний портал про штучний інтелект
+</footer>
+
+</body>
+</html>
